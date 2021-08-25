@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.fixwidth{
+    width: 1270px;
+    margin: auto;
+}
+.header{
+    background-color: #22c3a3;
+}
+.logo{
+    width: 30%;
+    color: #fff;
+    float: left; 
+}
+.logo h2{
+    margin-top: 15px;
+}
+.menu{
+    width: 70%;
+    float: right;
+}
+.menu ul{
+    text-align: right;
+}
+.menu ul li{
+    display: inline-block;
+    list-style: none;
+}
+.menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #ddd;
+    padding: 20px 10px;
+}
+.banner{
+    background-image: url(https://i.ibb.co/PgHxtPC/header-bg01.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 280px 0;
+    line-height: 50px;
+    color: #fff;
+}
+.banner h1{
+    font-size: 50px;   
+}
+.banner span a{
+    display: inline-block;
+    padding: 0 20px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px; 
+    text-decoration: none;
+    margin-top: 30px;
+}
+.service-section{
+    padding: 100px 0;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.service-section h1{
+    padding: 20px 0;
+}
+.service{
+    width: 21%;
+    float: left;
+    margin: 100px 2%;
+}
+.service span{
+  color: #0dbf9b;
+  font-size: 35px;
+}
+.service h3{
+    padding-top: 20px;
+}
+.service ul{
+    padding-top: 10px;
+    list-style: none;
+    line-height: 22px;
+}
+.line{
+  background-color: #0dbf9b;
+}
+
+.about-section{
+    padding: 50px 0;
+    text-align: center;
+}
+.about-section p{
+    font-family: 'Open Sans', sans-serif;
+    padding: 50px 0;
+    color: rgb(70, 69, 69);
+}
+.about-section img{
+    float: left;
+    width: 40%;
+}
+.content{
+    float: right;
+    width: 56%;
+    text-align: left;
+    color: rgb(70, 69, 69);
+    
+}
+.content h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.content p{
+    padding: 10px 0;
+    font-size: 14px;
+}
+.contact-section{
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    padding: 50px 0;
+}
+.contact-section p{
+    padding: 30px 0;
+    color: rgb(70, 69, 69);
+}
+.contact{
+    float: left;
+    width: 33.33%;  
+    color: rgb(70, 69, 69); 
+}
+.contact span{
+    display: inline-block;
+    padding: 15px 0;
+    color: #0dbf9b;
+}
+.contact ul{
+    list-style: none;
+}
+.contact ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(70, 69, 69); 
+}
+.footer{
+    background-color: #0dbf9b;
+}
+.footer ul{
+    text-align: center;
+}
+.footer ul li{
+    display: inline-block;
+}
+.footer ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 10px;
+
+}
